@@ -2,10 +2,10 @@ import {
   Entity,
   Column,
   PrimaryGeneratedColumn,
-  ManyToOne,
-  JoinColumn,
   CreateDateColumn,
   UpdateDateColumn,
+  ManyToOne,
+  JoinColumn,
 } from 'typeorm';
 import Category from './Category';
 
